@@ -1,7 +1,9 @@
+package 
+
 public class App {
 
 	public static void main(String[] args) throws Exception {
-		Supermarket hannaford = new Supermarket();
+		SuperMarket hannaford = new SuperMarket();
 		hannaford.addToStock(new Item(100, "organic carrot",  0.99, 121243));
 		hannaford.addToStock(new Item(50,  "organic bread",   3.99, 314543));
 		hannaford.addToStock(new Item(50,  "bread",           0.99, 316643));

@@ -35,7 +35,7 @@ public class Shopper {
 		Enumeration<Item> iterator = instockItems.elements();
 		while (iterator.hasMoreElements())
 		{
-			double lowestPrice = 0.0;
+			double lowestPrice = 1000000.0;
 			Item currentItem = iterator.nextElement(); 
 			String description = currentItem.get_description().toLowerCase(); 
 			switch (sType) { 

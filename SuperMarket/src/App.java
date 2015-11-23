@@ -35,8 +35,8 @@ public class App {
 		String receipt1 = cashier.checkOut(cart1);
 		String receipt2 = cashier.checkOut(cart2);
 		
-		System.out.print(receipt1);
-		System.out.print(receipt2);
+		System.out.println(receipt1);
+		System.out.println(receipt2);
 	}
 
 }
